@@ -21,4 +21,14 @@
 5. Look back and refactor
     * Can you improve the readability?
     * The performance?
-  
+
+## Patterns
+
+### Frequency Counters
+
+Use objects or sets to collect values/frequencies of values
+often can simplify nested loop solutions with arrays/strings
+
+### Multiple Pointers
+
+With some collection, have two "pointers" starting in different spots that move a certain direction based on some criteria until some condition is met.
