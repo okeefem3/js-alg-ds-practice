@@ -32,3 +32,12 @@ often can simplify nested loop solutions with arrays/strings
 ### Multiple Pointers
 
 With some collection, have two "pointers" starting in different spots that move a certain direction based on some criteria until some condition is met.
+
+## Sliding Window
+
+Useful when looking for continous subsets usually of an array. Depending on conditions the window either increases or closes and a new one is created.
+
+## Divide and Conquer
+
+Divide a data set into smaller chunks and then repeat process with a subset of the data. Very good at reducing time complexity. Usually pretty good for some searching algorithms (binary search for instance.
+In binary search, it only works if the data is sorted.

@@ -2,6 +2,7 @@
 // Given two strings, determine if str2 is an anagram of str1
 // a word phrase or name formed by rearranging the letters
 // Assuming these are all lowercase words
+// Frequency Counter Problem
 function validAnagram(str1, str2) {
     if (str1 === str2) {
         return true;

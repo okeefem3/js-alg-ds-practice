@@ -1,5 +1,6 @@
 
 // Accepts a sorted array, counts the unique values in the array
+// Moving Pointer Problem
 function countUniqueValues(arr) {
     if (arr.length < 2) {
         return arr.length;
