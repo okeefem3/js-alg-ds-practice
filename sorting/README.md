@@ -29,10 +29,17 @@ Builds up sorted array by inserting each item where it belongs on the left side.
 These algs are also more complicated in implementation
 
 ### Merge Sort
+
 Exploits the fact that arrays of 0 | 1 element are already sorted
 
 Decomposes an array into smaller arrays until 0 or 1 element
 Then merge them back together in the correct order checking where each item in the arrays go in relation to each other
+
+### Quick Sort
+
+Uses same assumption as merge sort, decomposing arrays.
+Select a pivot point and moves all numbers lower than pivot to the left, and all higher to the right
+repeat the process for each side of the pivot
 
 
 
